@@ -420,8 +420,20 @@
                      </li>
                  </ul>
             
- 
          </div>           
+
+         <form action="" class="subscribe-form margin-container">
+                    
+            <label for="email"> <b>ПОДПИШИТЕСЬ НА РАССЫЛКУ</b></label>
+            <input type="email" placeholder="E-mail" id="email" name="email-footer" class="email-input">
+
+            <button type="submit" class="submit-button">
+                Подписаться
+                <svg class="icon">
+                    <use href="./images/sprite.svg#send"></use>
+                </svg>
+            </button>
+        </form>
              
         </div>
      </footer>
@@ -433,6 +445,74 @@
                     <use href="./images/sprite.svg#close"></use>
                 </svg>
             </button>
+
+            <form action="" class="modal-form" autocomplete="off">
+                <p class="modal-title"> Оставьте свои данные, мы не перезвоним</p>
+                
+                <div class="fieldset" role="group">
+
+                    <label class="label-name">
+                            Имя
+                            <div class="input-wrapper">
+                                <input type="name" id="name" name="name" class="input input-name">
+                                <svg class="icon icon-person">
+                                    <use href="./images/sprite.svg#person"></use>
+                                </svg>
+                            </div>
+                            
+                    </label>
+                    
+
+                    <label class="label-tel">
+                        Телефон
+                        <div class="input-wrapper">
+                            <input type="tel" id="tel" name="telephone" class="input input-tel">
+                            <svg class="icon icon-telephone">
+                                <use href="./images/sprite.svg#telephone"></use>
+                            </svg>
+                        </div>
+                        
+                    </label>
+                   
+
+                    <label class="label-email">
+                        Почта
+                        <div class="input-wrapper">
+                            <input type="email" id="email" name="email-modal" class="input input-email">
+                            <svg class="icon icon-email">
+                                <use href="./images/sprite.svg#email"></use>
+                            </svg>
+                        </div>
+                        
+                    </label>
+                    
+
+                    <label class="label-comment">
+                        Комментарий
+
+                        <div class="input-wrapper">
+                            <textarea name="comment" placeholder="Введите текст" id="text-area" class="input text-area"rows="8"></textarea>
+
+                        </div>
+                       
+                    </label>
+                    
+
+                </div>
+
+                <div class="policy" role="group">
+                    <input type="checkbox" id="policy" name="policy" class="input-checkbox">
+                    <label for="policy" class="label-policy">Соглашаюсь с рассылкой и принимаю</label>
+                    <a href="#">Условия договора</a>
+                   
+                </div>
+
+                <button type="submit" class="submit-button">
+                    Отправить
+                </button>
+                
+                
+            </form>
         </div>
     </div>
     
