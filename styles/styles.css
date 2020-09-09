@@ -952,8 +952,7 @@ img {
 
     padding: 6px 22px;
      
-    transition: background-color var(--animation-time) var(--cubic-time-function), color var(--animation-time) var(--cubic-time-function), 
-    box-shadow var(--animation-time) var(--cubic-time-function);
+    transition: all var(--animation-time) var(--cubic-time-function);
 }
 
 .list-projects button:hover,
