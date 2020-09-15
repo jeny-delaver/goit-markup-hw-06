@@ -804,7 +804,7 @@ img {
     position: relative;
 }
 
-.input-wrapper .input{
+.input-wrapper input{
     width: 100%;
     padding: 12px 0px 12px 40px;
     margin-top: 4px;
@@ -828,7 +828,8 @@ img {
     height: 12px;
 }
 
-.input-wrapper .icon-telephone {
+/* .input-wrapper  */
+.fieldset .icon-telephone {
     width: 14px;
     height: 14px;
 }
@@ -838,8 +839,11 @@ img {
     height: 12px;
 }
 
-.input-wrapper .input.text-area{       /* Переопределение паддинга для секции коммента  */
+.input.text-area{     
+
     padding: 12px 0px 0px 16px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
 }
 
 .input:focus {
